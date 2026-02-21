@@ -1,0 +1,26 @@
+{
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "classes": [
+    "requirement",
+    "decision",
+    "action",
+    "timeline",
+    "stakeholder"
+  ],
+  "metrics": {
+    "accuracy": 0.6587999999999999,
+    "f1_macro": 0.6563443759241376,
+    "f1_weighted": 0.6563443759241376,
+    "cv_folds": 5,
+    "classes": [
+      "requirement",
+      "decision",
+      "action",
+      "timeline",
+      "stakeholder"
+    ]
+  },
+  "trained_on": 2500,
+  "trained_at": "2026-02-18T12:22:49.772264",
+  "version": "v1"
+}

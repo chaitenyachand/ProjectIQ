@@ -1,0 +1,34 @@
+# SECRETS — never push
+.env
+backend/.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ML data — gigabytes, don't push
+backend/data/
+data/
+ml/data/
+
+# ML models — large binaries
+backend/artifacts/
+backend/evaluation/artifacts/
+data/processed/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Supabase temp
+supabase/.temp/

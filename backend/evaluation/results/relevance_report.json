@@ -1,0 +1,151 @@
+{
+  "classification_report": {
+    "noise": {
+      "precision": 0.7865731462925851,
+      "recall": 0.785,
+      "f1-score": 0.7857857857857858,
+      "support": 1000.0
+    },
+    "relevant": {
+      "precision": 0.7854291417165669,
+      "recall": 0.787,
+      "f1-score": 0.7862137862137862,
+      "support": 1000.0
+    },
+    "accuracy": 0.786,
+    "macro avg": {
+      "precision": 0.786001144004576,
+      "recall": 0.786,
+      "f1-score": 0.785999785999786,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.786001144004576,
+      "recall": 0.786,
+      "f1-score": 0.785999785999786,
+      "support": 2000.0
+    }
+  },
+  "roc_auc": 0.857411,
+  "average_precision": 0.8541572428548376,
+  "optimal_threshold": 0.4627350284538885,
+  "optimal_f1": 0.7926887926887927,
+  "confusion_matrix": [
+    [
+      785,
+      215
+    ],
+    [
+      213,
+      787
+    ]
+  ],
+  "n_samples": 2000,
+  "n_positive": 1000,
+  "error_analysis": {
+    "false_positives": [
+      {
+        "sentence": "The executing broker must retain a copy of the authorization or the\nspecifics of the telephonic confirmation, which includes: opposite party,\ndate, time, and any other relevant information.",
+        "confidence": 0.925071208604455,
+        "source": "enron"
+      },
+      {
+        "sentence": "One person starts this process, so I'm not sure if an ordinance really resolve the issue.",
+        "confidence": 0.9029013555205161,
+        "source": "meetings"
+      },
+      {
+        "sentence": "We go along with what is recognized as the need for geographic distribution, and that appears to be having an appointment by District Council member.",
+        "confidence": 0.8863892662489832,
+        "source": "meetings"
+      },
+      {
+        "sentence": "Those options include a letter of credit, \ncash prepayment, or an acceptable form of collateral.",
+        "confidence": 0.8700574569435687,
+        "source": "enron"
+      },
+      {
+        "sentence": "Transwestern and IGS may agree in writing to other \nproject-specific requirements.",
+        "confidence": 0.8683799586239874,
+        "source": "enron"
+      },
+      {
+        "sentence": "New Delhi and state governments should then scrap the \nguarantees that they gave IPPs in the past.",
+        "confidence": 0.8535798318334648,
+        "source": "enron"
+      },
+      {
+        "sentence": "Any activity on \nthis setup will be governed by the same agreements currently in place as it \nwill be done on behalf of both ECT Investments and Enron North America until \nfurther notice.",
+        "confidence": 0.8509828826607548,
+        "source": "enron"
+      },
+      {
+        "sentence": "And I think we as a council should really think about prioritizing a single individual that's housed out of the city manager's office that can take charge of the homeless issues and coordinate all of the\nSpeaker 7: departments and address all of the different factors that are associated with homelessness.",
+        "confidence": 0.8451260278974738,
+        "source": "meetings"
+      },
+      {
+        "sentence": "Demand Response - Beginning June 1, only public utility load serving entities \nmust submit demand side bids to curtail load and identify the load to be \ncurtailed under those bids.",
+        "confidence": 0.8443184937322883,
+        "source": "enron"
+      },
+      {
+        "sentence": "However, if you'd rather\nnot receive future e-mails of this sort from Amazon.com, please\nvisit the Help page named Updating Subscriptions and Communication\nPreferences through the link below, then click the Customer\nCommunication Preferences link.",
+        "confidence": 0.8304565926739528,
+        "source": "enron"
+      }
+    ],
+    "false_negatives": [
+      {
+        "sentence": "There's all these kind of things .",
+        "confidence": 0.08948122976046953,
+        "source": "ami"
+      },
+      {
+        "sentence": "I need to know before we can confirm these deals.",
+        "confidence": 0.1203397959726531,
+        "source": "enron"
+      },
+      {
+        "sentence": "A couple of other things: I need to meet with \nMcKinsey while I'm in town on Monday.",
+        "confidence": 0.12540646174750167,
+        "source": "enron"
+      },
+      {
+        "sentence": "My apologies to lead sponsor, but this is a conversation that's going exceptionally well about really reflecting and celebrating all of our\nSpeaker 2: history.",
+        "confidence": 0.13798702313339783,
+        "source": "meetings"
+      },
+      {
+        "sentence": "I need to \nwrite something from scratch.",
+        "confidence": 0.14653279545525458,
+        "source": "enron"
+      },
+      {
+        "sentence": "One with two scroll buttons and one with without .",
+        "confidence": 0.14701677002261296,
+        "source": "ami"
+      },
+      {
+        "sentence": "Nancy Carpenter\n01/10/2001 07:58 AM\n \ncc: \n \nI'm starting to have the weirdest schedule.",
+        "confidence": 0.1627527524833745,
+        "source": "enron"
+      },
+      {
+        "sentence": "You must\nbe willing to be humiliated ... to endure the modern-day equivalent\nof the police dogs at Montgomery and the water Cannons at Selma.",
+        "confidence": 0.1641770117202335,
+        "source": "enron"
+      },
+      {
+        "sentence": "No n not specifically .",
+        "confidence": 0.17310165652048334,
+        "source": "ami"
+      },
+      {
+        "sentence": "I heard a bit about the departure but with any luck it must have \ngotten better.",
+        "confidence": 0.1735303687744164,
+        "source": "enron"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+project_id = "jtexspdrijjjwjtokrkt"
+
+[functions.process-brd]
+verify_jwt = false
+
+[functions.generate-tasks]
+verify_jwt = false
+
+[functions.predict-delays]
+verify_jwt = false
+
+[functions.extract-document]
+verify_jwt = false
+
+[functions.analyze-workload]
+verify_jwt = false
+
+[functions.edit-brd-nl]
+verify_jwt = false
+
+[functions.detect-conflicts]
+verify_jwt = false
+
+[functions.analyze-sentiment]
+verify_jwt = false
+
+[functions.filter-sources]
+verify_jwt = false
+
+[functions.integrations]
+verify_jwt = false
+
+[functions.seed-demo-data]
+verify_jwt = false
