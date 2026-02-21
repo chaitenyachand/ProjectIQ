@@ -1,0 +1,29 @@
+# === ABSOLUTE BLOCKERS ===
+backend/data
+backend/data/**
+backend/artifacts
+backend/evaluation
+backend/evaluation/**
+backend/training
+backend/training/**
+backend/preprocessing
+backend/preprocessing/**
+
+# === ML / DATA ===
+*.csv
+*.npy
+*.joblib
+*.pt
+*.pkl
+*.h5
+*.onnx
+
+# === CACHE / BUILD ===
+node_modules
+__pycache__
+.next
+dist
+build
+
+# === ENV ===
+.env
